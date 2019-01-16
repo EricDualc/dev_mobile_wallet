@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "Devcore Mobile Wallet",
+    "description": "Dev mobile lite wallet that connects to web pos wallet.",
+    "slug": "dev-mobile-wallet",
+    "privacy": "public",
+    "sdkVersion": "25.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.devcore.wallet",
+      "versionCode": 2
+    }
+  }
+}
